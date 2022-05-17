@@ -56,6 +56,5 @@ while True:
         print('\n!Ошибка: Число не входит в заданную последовательность!\n')
 
 result = binary_search(sort_array, element, 0, len(sort_array))
-
 print('Отсортированный список:', sort_array)
 print(f'Индекс искомого числа: {result - 1}')
